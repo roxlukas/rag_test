@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 # Configuration
 OLLAMA_BASE_URL = "http://192.168.1.250:11434"
 EMBEDDING_MODEL = "nomic-embed-text"  # Good for embeddings
-CHAT_MODEL = "qwen2.5:8b"  # Using Qwen3:8B for optimal quality/speed balance
+CHAT_MODEL = "qwen3:8b"  # Using Qwen3:8B for optimal quality/speed balance
 COLLECTION_NAME = "nginx_docs"
 CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200
