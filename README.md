@@ -1,4 +1,6 @@
-### Very simple RAG implmentation (Retrieveal - Augmented Generation)
+# Very simple RAG implmentation (Retrieveal - Augmented Generation)
+
+Purely for educational purposes - how to do it?
 
 ## **Architecture Overview**
 
