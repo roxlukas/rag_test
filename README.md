@@ -28,7 +28,7 @@
 Make sure you have these models pulled:
 ```bash
 ollama pull nomic-embed-text  # For embeddings
-ollama pull llama3.1          # For chat (or adjust CHAT_MODEL)
+ollama pull qwen3:8b          # For chat (or adjust CHAT_MODEL)
 ```
 
 ## **Configuration**
