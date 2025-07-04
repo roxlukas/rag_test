@@ -1,6 +1,6 @@
-# Very simple RAG implmentation (Retrieveal - Augmented Generation)
+# Very simple RAG implementation (Retrieveal - Augmented Generation)
 
-Purely for educational purposes - how to do it?
+Purely for educational purposes - how to make a simple RAG
 
 ## **Architecture Overview**
 
