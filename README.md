@@ -33,10 +33,9 @@ ollama pull qwen3:8b          # For chat (or adjust CHAT_MODEL)
 
 ## **Configuration**
 
-The system is pre-configured for your setup:
 - Ollama at `192.168.1.250:11434`
 - Embedding model: `nomic-embed-text`
-- Chat model: `llama3.1` (adjust in docker-compose.yml if needed)
+- Chat model: `qwen3:8b` (adjust in docker-compose.yml if needed)
 
 ## **How It Works**
 
