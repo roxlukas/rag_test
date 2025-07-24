@@ -5,10 +5,10 @@ Purely for educational purposes - how to make a simple RAG
 ## **Architecture Overview**
 
 1. **Document Loading**: Scrapes nginx.org documentation automatically
-2. **Embedding**: Uses your Ollama instance with `nomic-embed-text` model
+2. **Embedding**: Uses Ollama instance with `nomic-embed-text` model
 3. **Vector Storage**: ChromaDB for persistent vector storage
 4. **Retrieval**: Semantic search to find relevant docs
-5. **Generation**: Uses your Ollama chat model for responses
+5. **Generation**: Uses Ollama chat model for responses
 
 ## **Key Features**
 
@@ -48,7 +48,7 @@ ollama pull qwen3:8b          # For chat (or adjust CHAT_MODEL)
    - Stores in ChromaDB
 
 2. **Query Phase**:
-   - Embeds your question
+   - Embeds the question
    - Finds similar document chunks
    - Combines relevant context
    - Generates answer via Ollama
